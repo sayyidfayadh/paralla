@@ -5,23 +5,23 @@ body{
 h1{
   font-size: 7rem;
   color: white;
- 
+ ]
 }
 
 .scroll-reveal span{
   color:hsl(0 0% 100%/0.2);
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 2rem;
-  background-image: linear-gradient(90deg,green,black);
+  background-image: linear-gradient(90deg,black,black);
   background-clip: text;
   background-repeat: no-repeat;
-  background-size: 25% 100% ;
+  background-size: 0% 100% ;
   animation: scroll-reveal linear forwards;
   animation-timeline: view();
 }
 .scroll-reveal p span{
   animation-range-start: cover 10vh;
-  animation-range-end: cover 40vh;
+  animation-range-end: cover 50vh;
 }
 @keyframes scroll-reveal{
   to{background-size: 100% 100%;
@@ -51,8 +51,8 @@ h1{
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -1;
   object-fit: cover;
+  z-index: -1;
 
 }
 .m{
