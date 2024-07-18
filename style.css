@@ -1,125 +1,128 @@
 
+
 body{
-margin: 0;
-
-}
-h1{
-font-size: 10rem;
-color: white;
-position: sticky;
-top: 50%;
-
-}
-
-.scroll-reveal span{
-color:hsl(0 0% 100%/0);
-font-size: 2rem;
-padding: 2rem;
-background-image: linear-gradient(90deg,black,rgb(0, 0, 0));
-background-clip: text;
-background-repeat: no-repeat;
-background-size: 0% 100% ;
-animation: scroll-reveal linear forwards;
-animation-timeline: view();
-}
-.scroll-reveal p span{
-animation-range-start: cover 5vh;
-animation-range-end: cover 35vh;
-}
-@keyframes scroll-reveal{
-to{
-  background-size: 100% 100%;
-}
-}
-.scroll-reveal{
-  padding:2px;
-  text-align: center;
-
-}
-
-.content{
-
-  background-color: rgba(255, 247, 247, 0.87);
-font-size: 1rem;
-
-}
-.wrap{
-height: 100vh;
-overflow-y: auto;
-overflow-x: hidden;
-perspective: 10px;
-}
-.bann{
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100%;
-transform-style: preserve-3d;
-z-index: -1;
-object-fit: cover;
-}
-.m,.t{
-position: absolute;
-width: 100%;
-
-z-index: -1;
-}
-.m{
-transform: translateZ(-10px) scale(2);
-}
-.t{
-transform: translateZ(0px) scale(1.1);
-}
-.content2{
+  margin: 0;
+  
+  }
+  h1{
+  font-size: 10rem;
   color: white;
-  background-image: url(./img-07\ -\ Copy.jpg);
-  height: 500px;
+  position: sticky;
+  top: 50%;
+  
+  }
+  
+  .scroll-reveal span{
+  color:hsl(0 0% 100%/0);
+  font-size: 2rem;
+  padding: 2rem;
+  background-image: linear-gradient(90deg,black,rgb(0, 0, 0));
+  background-clip: text;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: 0% 100% ;
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view();
+  }
+  .scroll-reveal p span{
+  animation-range-start: cover 5vh;
+  animation-range-end: cover 35vh;
+  }
+  @keyframes scroll-reveal{
+  to{
+    background-size: 100% 100%;
+  }
+  }
+  .scroll-reveal{
+    padding:2px;
+    text-align: center;
   
-}
-
-.wrap2{
-  height: 300px;
-overflow-y: auto;
-overflow-x: hidden;
-perspective: 10px;
+  }
   
-}
-.desert h1{
-  text-align: center;
+  .content{
+  
+   background-color: white;
+  font-size: 1rem;
+ max-height: 100px;
+  
+  }
+  .wrap{
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+  }
+  .bann{
   position: relative;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  height: 100%;
   transform-style: preserve-3d;
   z-index: -1;
-}
-.desert p{
-padding-block: 30PX;
- text-align: center;
- font-size: 16PX;
-}
-.desert h1 p{
-  z-index: -1;
+  object-fit: cover;
+  }
+  .m,.t{
+  position: absolute;
+  width: 100%;
   
-}
-.desert h1{
-  position: sticky;
-  top: 40px;
-  padding-top: 20px;
-}
-.desert h1{
-  transform: translateZ(-10px) scale(1); 
-}
-.desert p{
-  transform: translateZ(8px) scale(1.1);
+  z-index: -1;
   }
-  .wrap2 {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll;
+  .m{
+  transform: translateZ(-10px) scale(2);
   }
-  .wrap2::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
+  .t{
+  transform: translateZ(0px) scale(1.1);
   }
+  .content2{
+    color: white;
+    background-image: url(./img-07\ -\ Copy.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+  
+  .wrap2{
+    height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+    
+  }
+  .desert h1{
+    text-align: center;
+    position: relative;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  .desert p{
+  padding-block: 30PX;
+   text-align: center;
+   font-size: 16PX;
+  }
+  .desert h1 p{
+    z-index: -1;
+    
+  }
+  .desert h1{
+    position: sticky;
+    top: 40px;
+    padding-top: 20px;
+  }
+  .desert h1{
+    transform: translateZ(-10px) scale(1); 
+  }
+  .desert p{
+    transform: translateZ(8px) scale(1.1);
+    }
+    .wrap2 {
+      -ms-overflow-style: none; /* for Internet Explorer, Edge */
+      scrollbar-width: none; /* for Firefox */
+      overflow-y: scroll;
+    }
+    .wrap2::-webkit-scrollbar {
+      display: none; /* for Chrome, Safari, and Opera */
+    }
+  
